@@ -1,0 +1,242 @@
+
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+#outer{
+	width: 100%;
+	
+	margin: 0 auto;
+}
+.clearfix{
+	clear: both;
+}
+.header{
+	width: 100%;
+	height: 200px;
+
+	
+
+}
+.banner{
+	width: 100%;
+	height: 100px;
+	background:#000000;
+	
+	line-height: 70px;
+	text-align: center;
+}
+.dow{
+	width: 100%;
+	height: 45px;
+	background:#000000;
+	padding-top:15px
+}
+.timkiem input{
+	width: 200px;
+	height: 30px;
+	border: 0px;
+	padding-left: 10px;
+	border-radius: 20px;
+}
+.timkiem button{
+	height: 23px;
+	
+}
+.timkiem{
+	width: 250px;
+	height: 37px;
+	background: #FFFFFF;
+	margin: 0 auto;
+	border-radius: 7px
+}
+.timkiem button img{
+	width: 24px;
+	height: auto;
+	border-radius: 10px;
+ 	border: 0px;
+	vertical-align: middle;
+}
+.banner a img{
+	width: 100px
+}
+.banner a:hover{
+	color: red
+}
+.menu{
+	width: 100%;
+	height: 40px;
+	background: #787474;
+}
+
+.menu ul{
+	list-style: none;
+	text-align: center;
+	
+}
+.menu ul li{
+	
+	
+	margin: 0 10px;
+	line-height: 38px;
+	text-align: center;
+	display: inline-block;
+	
+
+}
+.menu ul li a{
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+
+}
+.clearfix{
+	clear: both;
+}
+.main{
+	width: 100%;
+	height:600px;
+	
+	
+}
+.slidershow{
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	position: absolute;
+	
+}
+
+.navigation{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+}
+
+.bar{
+	width: 20px;
+	height: 20px;
+	border:2px solid #121212;
+	border-radius: 30px;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.bar:hover{
+	background: #2ACDFF;
+	transition: 0.6s;
+	border:2px solid #FFFFFF;
+}
+
+
+input[name="bottom"]{
+	position: absolute;
+	visibility: hidden;
+}
+
+.slides{
+	width: 500%;
+	height: 100%;
+	display: flex;
+}
+
+.slide{
+	width: 20%;
+	transition: 0.6s;
+}
+
+.slide img{
+	width: 100%;
+	height: 100%;
+}
+
+#bottom_1:checked ~ .s1{
+	margin-left: 0;
+}
+#bottom_2:checked ~ .s1{
+	margin-left: -20%;
+}
+#bottom_3:checked ~ .s1{
+	margin-left: -40%;
+}
+#bottom_4:checked ~ .s1{
+	margin-left: -60%;
+}
+#bottom_5:checked ~ .s1{
+	margin-left: -80%;
+}
+.footer{
+	width: 100%;
+	height:410px;
+	
+}
+.ider{
+	width:800px;
+	height:350px;
+	background:#FFFFFF;
+	margin:0 auto;
+	text-align: center;
+}
+.men{
+	float:left;
+	width: 10px
+}
+.women{
+	float: right;
+}
+.btn{
+	
+	text-decoration: none;
+	float: left;
+	font-size:50px;color: #010101
+}
+.btnn{
+	font-size:50px;
+	float: right;
+	text-decoration: none;
+	color: #010101
+}
+.colo{
+	width:500px;
+	height: 50px;
+	
+margin: 0 auto;
+	
+}
+.cuoicung{
+	width: 100%;
+	height: 440px;
+	background:#000000
+}
+.logo1{
+	width: 100%;
+	height: 100px;
+	background: #000000;
+	text-align: center
+}
+.logo1 a img{
+	width: 200px;
+	margin-top: 30px;
+}
+.menu1{
+	width: 80%;
+	height: 100px;
+
+	text-align: center;
+	margin: 0 auto;
+}
+.menu1 a{
+	text-decoration: none;
+	color: #FFFFFF;
+	letter-spacing:2px;
+	line-height: 55px
+}
+	
+	
+
+
